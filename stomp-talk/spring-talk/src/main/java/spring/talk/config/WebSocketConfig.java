@@ -13,6 +13,9 @@ import spring.talk.config.handler.ChatWebSocketHandler;
 public class WebSocketConfig implements WebSocketConfigurer {
     private final ChatWebSocketHandler chatWebSocketHandler;
 
+    /**
+     * @param registry
+     */
     @Override
     public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
         System.out.println("[+] 최초 WebSocket 연결을 위한 등록 Handler");
