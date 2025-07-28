@@ -11,7 +11,8 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
 public class WebSocketStompBrokerConfig implements WebSocketMessageBrokerConfigurer {
     /**
      * Message Broker 설정
-     * <p> enableSimpleBroker : 수신자 prefix 설정 (다수 가능), setApplicationDestinationPrefixes : 제공자 prefix 설정
+     * <p> enableSimpleBroker : 수신자 prefix 설정 (다수 가능),
+     * setApplicationDestinationPrefixes : 제공자 prefix 설정
      *
      * @param config 설정 파라미터 지정(MessageBrokerRegistry)
      */
