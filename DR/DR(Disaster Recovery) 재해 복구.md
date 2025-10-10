@@ -1,4 +1,4 @@
-# DR(Disaster Recovery) 재해 복구
+# DR(Disaster Recovery) : 재해 복구
 
 인프라 환경에서 장애나 재해 발생 시, 서비스 중단 없이 또는 최소한의 중단으로 복구하기 위한 핵심 아키텍처 설계입니다.
 
@@ -67,8 +67,9 @@ Backup/Sync : 파일 단위, 블록 단위, 또는 DB 단위의 실시간 동기
 
 5. 클라우드 환경에서의 DR 예시
 
-| AWS | Multi-AZ, Cross-Region, Replication, Route53, Failover |
+| 유형 | 종류 |
 | --- | --- |
+| AWS | Multi-AZ, Cross-Region, Replication, Route53, Failover |
 | Azure | Azure Site Recovery, Geo-Redundant Storage |
 | GCP | Cloud SQL, Replica, Global Load Balancing |
 | Naver Cloud / KT Cloud | Region 간 이중화 구성, Object Storage Cross Region |
